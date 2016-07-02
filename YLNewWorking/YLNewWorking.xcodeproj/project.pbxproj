@@ -15,6 +15,7 @@
 		298D79D61D280E7A00F88507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298D79D41D280E7A00F88507 /* LaunchScreen.storyboard */; };
 		298D79E11D280E7A00F88507 /* YLNewWorkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D79E01D280E7A00F88507 /* YLNewWorkingTests.swift */; };
 		298D79EC1D280E7A00F88507 /* YLNewWorkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D79EB1D280E7A00F88507 /* YLNewWorkingUITests.swift */; };
+		298D79FA1D280EFB00F88507 /* YLNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298D79F91D280EFB00F88507 /* YLNet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		298D79E71D280E7A00F88507 /* YLNewWorkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLNewWorkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		298D79EB1D280E7A00F88507 /* YLNewWorkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLNewWorkingUITests.swift; sourceTree = "<group>"; };
 		298D79ED1D280E7A00F88507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298D79F91D280EFB00F88507 /* YLNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLNet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				298D79C81D280E7A00F88507 /* AppDelegate.swift */,
 				298D79CA1D280E7A00F88507 /* ViewController.swift */,
+				298D79F91D280EFB00F88507 /* YLNet.swift */,
 				298D79CC1D280E7A00F88507 /* Main.storyboard */,
 				298D79D21D280E7A00F88507 /* Assets.xcassets */,
 				298D79D41D280E7A00F88507 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				298D79CB1D280E7A00F88507 /* ViewController.swift in Sources */,
 				298D79C91D280E7A00F88507 /* AppDelegate.swift in Sources */,
+				298D79FA1D280EFB00F88507 /* YLNet.swift in Sources */,
 				298D79D11D280E7A00F88507 /* YLNewWorking.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
